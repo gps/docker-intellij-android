@@ -20,5 +20,5 @@ RUN wget -nv https://download-cf.jetbrains.com/idea/${INTELLIJ_IDE_TAR} && \
     wget -O android-tools.zip -nv ${ANDROID_TOOLS_URL} && \
     unzip android-tools.zip && \
     rm android-tools.zip && \
-    yes | tools/bin/sdkmanager --licenses --sdk_root=/opt/android-sdk && \
-    tools/bin/sdkmanager --sdk_root=/opt/android-sdk "platform-tools" "platforms;android-29"
+    yes | cmdline-tools/bin/sdkmanager --licenses --sdk_root=/opt/android-sdk && \
+    cmdline-tools/bin/sdkmanager --sdk_root=/opt/android-sdk "platform-tools" "platforms;android-29"
