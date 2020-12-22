@@ -4,7 +4,7 @@ ARG INTELLIJ_VERSION="ideaIC-2020.3"
 ARG INTELLIJ_IDE_TAR=${INTELLIJ_VERSION}.tar.gz
 
 # Find the URLs here: https://developer.android.com/studio
-ARG ANDROID_TOOLS_URL="https://dl.google.com/android/repository/commandlinetools-linux-6200805_latest.zip"
+ARG ANDROID_TOOLS_URL="https://dl.google.com/android/repository/commandlinetools-linux-6858069_latest.zip"
 
 
 WORKDIR /opt
