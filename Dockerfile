@@ -21,5 +21,4 @@ RUN wget -nv https://download-cf.jetbrains.com/idea/${INTELLIJ_IDE_TAR} && \
     unzip android-tools.zip && \
     rm android-tools.zip && \
     yes | tools/bin/sdkmanager --licenses --sdk_root=/opt/android-sdk && \
-    tools/bin/sdkmanager --sdk_root=/opt/android-sdk "platform-tools" "platforms;android-29" && \
-    wget https://plugins.jetbrains.com/files/6954/96647/kotlin-plugin-1.4.10-release-IJ2020.2-1.zip
+    tools/bin/sdkmanager --sdk_root=/opt/android-sdk "platform-tools" "platforms;android-29"
